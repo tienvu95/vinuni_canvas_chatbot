@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat Bot</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .chat-bot-container {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #f0f0f0;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .chat-bot-input {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="chat-bot-container">
+      <h1>Chat Bot</h1>
+      <input id="userInput" type="text" class="chat-bot-input" placeholder="Type a message..." />
+      <p id="botResponse"></p>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
