@@ -9,7 +9,6 @@
       }
 
       .chat-bot-container {
-        position: fixed;
         bottom: 20px;
         right: 20px;
         background-color: #f0f0f0;
@@ -24,7 +23,7 @@
     </style>
   </head>
   <body>
-    <div class="chat-bot-container">
+    <div class="chat-bot-container" id="botContainer">
       <h1>Chat Bot</h1>
       <input id="userInput" type="text" class="chat-bot-input" placeholder="Type a message..." />
       <p id="botResponse"></p>
