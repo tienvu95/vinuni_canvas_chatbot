@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Sider - ChatGPT Sidebar with GPT-4"
+  },
+  "appDesc": {
+    "message": "Upau wa kando wa ChatGPT kama msaidizi wako wa AI kwenye ukurasa wowote"
+  },
+  "appNameEdge": {
+    "message": "Sider -- AI Sidebar"
+  },
+  "appDescEdge": {
+    "message": "Sider -- Utepe wa AI unaoendeshwa na ChatGPT ya OpenAI"
+  }
+}

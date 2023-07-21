@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Sider - ChatGPT Sidebar with GPT-4"
+  },
+  "appDesc": {
+    "message": "Πλαϊνή γραμμή ChatGPT ως βοηθός τεχνητής νοημοσύνης σε οποιαδήποτε σελίδα"
+  },
+  "appNameEdge": {
+    "message": "Sider -- AI Sidebar"
+  },
+  "appDescEdge": {
+    "message": "Sider -- πλευρική γραμμή AI που υποστηρίζεται από το ChatGPT του OpenAI"
+  }
+}

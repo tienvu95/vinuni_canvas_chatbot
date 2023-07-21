@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Sider - ChatGPT Sidebar with GPT-4"
+  },
+  "appDesc": {
+    "message": "ChatGPT-zijbalk als uw AI-assistent op elke pagina"
+  },
+  "appNameEdge": {
+    "message": "Sider -- AI Sidebar"
+  },
+  "appDescEdge": {
+    "message": "Sider -- AI-zijbalk aangedreven door ChatGPT van OpenAI"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Sider - ChatGPT Sidebar with GPT-4"
+  },
+  "appDesc": {
+    "message": "Bočný panel ChatGPT ako váš asistent AI na akejkoľvek stránke"
+  },
+  "appNameEdge": {
+    "message": "Sider -- AI Sidebar"
+  },
+  "appDescEdge": {
+    "message": "Sider -- Bočný panel AI poháňaný ChatGPT OpenAI"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Sider - ChatGPT Sidebar with GPT-4"
+  },
+  "appDesc": {
+    "message": "Thanh bên ChatGPT làm trợ lý AI của bạn trên bất kỳ trang nào"
+  },
+  "appNameEdge": {
+    "message": "Sider -- AI Sidebar"
+  },
+  "appDescEdge": {
+    "message": "Sider -- Thanh bên AI được cung cấp bởi ChatGPT của OpenAI"
+  }
+}

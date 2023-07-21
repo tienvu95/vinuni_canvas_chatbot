@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Sider - ChatGPT Sidebar with GPT-4"
+  },
+  "appDesc": {
+    "message": "Herhangi bir sayfada yapay zeka asistanınız olarak ChatGPT kenar çubuğu"
+  },
+  "appNameEdge": {
+    "message": "Sider -- AI Sidebar"
+  },
+  "appDescEdge": {
+    "message": "Sider -- OpenAI ChatGPT tarafından desteklenen AI kenar çubuğu"
+  }
+}

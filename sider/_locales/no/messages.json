@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Sider - ChatGPT Sidebar with GPT-4"
+  },
+  "appDesc": {
+    "message": "ChatGPT sidefelt som din AI-assistent på hvilken som helst side"
+  },
+  "appNameEdge": {
+    "message": "Sider -- AI Sidebar"
+  },
+  "appDescEdge": {
+    "message": "Sider -- AI-sidefelt drevet av ChatGPT fra OpenAI"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Sider - ChatGPT Sidebar with GPT-4"
+  },
+  "appDesc": {
+    "message": "ChatGPT sānjosla kā jūsu AI palīgs jebkurā lapā"
+  },
+  "appNameEdge": {
+    "message": "Sider -- AI Sidebar"
+  },
+  "appDescEdge": {
+    "message": "Sider -- AI sānjosla, ko nodrošina OpenAI ChatGPT"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Sider - ChatGPT Sidebar with GPT-4"
+  },
+  "appDesc": {
+    "message": "ChatGPT šoninė juosta kaip jūsų AI padėjėjas bet kuriame puslapyje"
+  },
+  "appNameEdge": {
+    "message": "Sider -- AI Sidebar"
+  },
+  "appDescEdge": {
+    "message": "Sider -- AI šoninė juosta, kurią palaiko OpenAI ChatGPT"
+  }
+}

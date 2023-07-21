@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Sider - ChatGPT Sidebar with GPT-4"
+  },
+  "appDesc": {
+    "message": "Bar sisi ChatGPT sebagai pembantu AI anda pada mana-mana halaman"
+  },
+  "appNameEdge": {
+    "message": "Sider -- AI Sidebar"
+  },
+  "appDescEdge": {
+    "message": "Sider -- bar sisi AI dikuasakan oleh ChatGPT OpenAI"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Sider: ChatGPT側邊欄,GPT-4, 聯網, 繪畫"
+  },
+  "appDesc": {
+    "message": "ChatGPT 側邊欄作為您在任何頁面上的 AI 助手"
+  },
+  "appNameEdge": {
+    "message": "Sider -- GPT-4 側邊欄"
+  },
+  "appDescEdge": {
+    "message": "Sider 是一款由OpenAI的ChatGPT提供支持的側邊欄"
+  }
+}

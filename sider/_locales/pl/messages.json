@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Sider - ChatGPT Sidebar with GPT-4"
+  },
+  "appDesc": {
+    "message": "Pasek boczny ChatGPT jako asystent AI na dowolnej stronie"
+  },
+  "appNameEdge": {
+    "message": "Sider -- AI Sidebar"
+  },
+  "appDescEdge": {
+    "message": "Sider -- Pasek boczny AI obsługiwany przez ChatGPT OpenAI"
+  }
+}

@@ -1,0 +1,606 @@
+{
+  "sidebar": "Postranní panel",
+  "shortcut": "Klávesová zkratka",
+  "ask": "Dotázat se",
+  "save": "Ulož to",
+  "saved": "Uložené",
+  "delete": "Vymazat",
+  "remove": "Odstranit",
+  "cancel": "zrušení",
+  "ok": "OK",
+  "submit": "Předložit",
+  "attention": "Oznámení",
+  "send": "Poslat",
+  "copy": "kopírovat",
+  "copied": "Zkopírováno",
+  "clear": "Průhledná",
+  "collapse": "Sbalit postranní panel",
+  "done": "Hotovo",
+  "manage": "Spravovat",
+  "template": "šablona",
+  "edit": "Upravit",
+  "add": "Přidat",
+  "feedback": "Zpětná vazba",
+  "tweetit": "Tweetnout",
+  "fullPageChat": "Celostránkový chat",
+  "whatNew": "Novinky",
+  "gotIt": "Mám to",
+  "settings": "Nastavení",
+  "signin": "Přihlásit se",
+  "share": "Podíl",
+  "myChats": "Moje chaty",
+  "general": "Obecná konfigurace",
+  "archive": "archiv",
+  "searchPage": "Stránka vyhledávání",
+  "addons": "Doplňky",
+  "webStore": "Internetový obchod",
+  "webApp": "Webová aplikace",
+  "webAccess": "Webový přístup",
+  "upgradeNow": "Vylepšit nyní",
+  "language": "Jazyk",
+  "theme": "Téma",
+  "model": "Modelka",
+  "version": "Verze",
+  "more": "Více",
+  "listen": "Poslouchat",
+  "skip": "Přeskočit",
+  "vote": "Hlasování",
+  "invite": "Pozvat",
+  "editTitle": "Upravit název",
+  "summarize": "Shrnout",
+  "summarizing": "Shrnutí",
+  "answering": "Odpovídání",
+  "modelUpdateSuccess": "Model byl úspěšně aktualizován",
+  "modelUpdateFailed": "Aktualizace modelu se nezdařila",
+  "customPrompt": "Vlastní výzva",
+  "currentTpl": "Aktuální šablona:",
+  "editTpl": "Upravit tuto šablonu",
+  "delteTpl": "Smazat tuto šablonu",
+  "restoreTpl": "Obnovte tuto šablonu",
+  "archiveTpl": "Archivujte tuto šablonu",
+  "showTpl": "Zobrazit tuto šablonu",
+  "promptName": "Název výzvy",
+  "promptContent": "Prompt Content",
+  "contactUs": "Kontaktujte nás",
+  "webAssistant": "Webový asistent",
+  "issueType": "Typ problému",
+  "pinExt": "Prodloužení čepu",
+  "yourEmailAddress": "Vaše emailová adresa",
+  "troubleshooting": "Odstraňování problémů",
+  "openSidebar": "Otevřete postranní panel",
+  "pasteSelection": "Výběr vložit",
+  "pasteTextPage": "Vložit text ze stránky",
+  "getAnotherKey": "Získejte další klíč",
+  "showSearchPanel": "Zobrazit panel vyhledávání",
+  "getItNow": "Získejte to hned",
+  "notNow": "Teď ne",
+  "alwaysDisplay": "Vždy zobrazit",
+  "queries": "Dotazy",
+  "total": "celkový",
+  "getMore": "získat více",
+  "goPremium": "upgrade na prémii",
+  "goPremiumGetMore": "upgradujte na prémii, abyste získali více",
+  "myAccount": "Můj účet",
+  "clickToAsk": "Klikněte a zeptejte se",
+  "searchingFor": "Hledám:",
+  "searchedFor": "Hledané:",
+  "switchAndContinue": "Přepněte a pokračujte",
+  "pricePerDay": "Méně než {{num}}/den",
+  "popupPage": {
+    "thank": "Děkujeme, že používáte rozšíření {{APP_NAME}}!",
+    "desc": "Aktuální stránka je jedinečná stránka a funkce postranního panelu není k dispozici. Můžete však otevřít celou stránku a chatovat!",
+    "chatNow": "Chatujte nyní"
+  },
+  "setupPage": {
+    "welcome": "Vítejte v {{APP_NAME}}! Zde je začátek vaší cesty:",
+    "pinTips": "Připněte si aplikaci {{APP_NAME}} pro snadný přístup",
+    "stepTitle": "Pro snazší přístup k aplikaci {{APP_NAME}} ponechte ikonu postranního panelu připnutou podle následujících kroků:",
+    "step1": "Klikněte na ikonu puzzle {{icon}} vedle avatara vašeho profilu.",
+    "step2": "V rozbalovací nabídce najděte {{APP_NAME}}.",
+    "step3": "Kliknutím na ikonu „Připnout“ ji připnete.",
+    "pinGuideDesc": "Chcete-li usnadnit přístup k rozšíření, ponechte jej připnuté podle následujících kroků.\n1. Klikněte na ikonu puzzle <b>ICON</b> vedle avatara vašeho profilu.\n2. V rozbalovací nabídce najděte {{APP_NAME}}.\n3. Klikejte na ikonu připínáčku, dokud nezmodrá.",
+    "signInGuideTitle": "Přihlaste se nyní a odemkněte následující:",
+    "signInGuideStep1": "Synchronizujte nastavení rozšíření mezi počítači",
+    "signInGuideStep2": "Získejte přístup k výzvám z různých notebooků",
+    "signInGuideStep3": "Uložte chaty pro budoucí použití",
+    "signInGuideStep4": "Sdílejte chaty pomocí odkazu",
+    "welcomeGuide": "Vítejte v {{APP_NAME}}",
+    "step1Label": "První krok",
+    "step2Label": "druhý krok",
+    "tryOut": "Vyzkoušej to"
+  },
+  "getKeyPage": {
+    "welcome": "Vítejte v {{APP_NAME}}! Zde je vaše cesta na začátek:",
+    "stepTitle": "Jak získat klíč API.",
+    "step1": "Krok 1: Získejte klíč API",
+    "step1-1": "<i>Přihlaste se ke svému účtu OpenAI</i> Pokud účet nemáte, zaregistrujte se <b>ZDE</b>",
+    "step1-2": "Navštivte stránku OpenAI API Key",
+    "step1-3": "Vytvořte nový tajný klíč a zkopírujte jej následovně",
+    "step2": "Krok 2: Vložte klíč API do pole níže",
+    "step2-tips": "Nebojte se. Váš klíč API se používá pouze lokálně v rámci rozšíření ChatGPT. Použití API je stabilnější než přímé použití ChatGPT.",
+    "step3": "Krok 3: Zkontrolujte své kredity <i>zde</i>"
+  },
+  "optionPage": {
+    "howToAccess": "Jak získat přístup k ChatGPT a používat jej kdekoli",
+    "howToAccessTip": "Aby byla umělá inteligence dostupná pro každého, poskytujeme 3 způsoby, jak získat přístup k ChatGPT a používat jej kdekoli.",
+    "recommend4all": "(Doporučeno pro všechny)",
+    "sidebarProvider": "Postranní panel používá ChatGPT Premium API k zajištění stabilního přístupu.",
+    "sidebarProviderGoPremium": "Nabízíme {{num}} bezplatných denních dotazů, abychom všem zaručili dostupnost umělé inteligence. <a>Upgradujte na prémiové</a>, abyste zvýšili svůj denní limit dotazů a podpořili naše poslání <b>poskytovat univerzální umělou inteligenci pro každého</b>.",
+    "webappProvider": "API pohánějící webovou aplikaci ChatGPT je zdarma, ale občas může být nestabilní.",
+    "webappGPT4": "(Uživatelé ChatGPT Plus to mohou vyzkoušet)",
+    "webappTip1": "Pokud jste uživatelem ChatGPT Plus, máte nyní možnost zvolit GPT-4. OpenAI však může omezit počet zpráv, které můžete za den odeslat.",
+    "webappTip2": "Prosím <m>Připněte si záložku ChatGPT</m> a zůstaňte přihlášeni na webu ChatGPT. To však nemusí zaručit stabilitu. Pokud narazíte na nějaké problémy, navštivte <v>web ChatGPT </v>a obnovte stránku.",
+    "GPT4Desc": "Musíte zůstat přihlášeni ke svému účtu ChatGPT na webu. Stabilita může být nekonzistentní jak pro uživatele Plus, tak pro bezplatné uživatele kvůli omezení OpenAI.",
+    "apiKeyProviderTip": "(Pro vývojáře s klíčem API)",
+    "apiKeyProvider": "Oficiální OpenAI API je stabilnější a poplatky jsou založeny na používání.",
+    "apiKeyLocally": "Váš klíč API je uložen lokálně ve vašem prohlížeči a nikdy se neposílá nikam jinam.",
+    "ownURL": "Použít vlastní URL",
+    "apiKeyTip1": "Platnost vašeho bezplatného klíče OpenAI API pravděpodobně vypršela. <a>Zde zkontrolujte stav vypršení platnosti klíče API.</a>",
+    "apiKeyTip2": "Pokud používáte bezplatný klíč API OpenAI, přístup k ChatGPT nemusí být stabilní, když zažívá vysokou poptávku.",
+    "apiFreeGuide": "Chcete-li získat klíč API, postupujte podle pokynů.",
+    "apiKeyGpt4Tip": "Rozšíření podporuje GPT-4, pokud zadáte klíč API GPT-4.",
+    "displaySearchRes": "Zobrazte odpověď ChatGPT vedle stránek s výsledky vyhledávání",
+    "whenToAsk": "Kdy se zeptat ChatGPT",
+    "promptTplForSearch": "Šablona výzvy pro Google a další vyhledávače",
+    "addNewTplForSearch": "Přidejte novou šablonu výzvy",
+    "launchSidebar": "Spusťte postranní panel",
+    "sidebarLocation": "Umístění postranního panelu",
+    "sidebarLeftOrRight": "Umístěte boční panel na levou nebo pravou stranu",
+    "sidebarDisplayOption": "Režim zobrazení postranního panelu",
+    "sidebarDisplayOptionTip": "Vyberte, jak se na stránce zobrazí postranní panel",
+    "sidebarDisplayOptions": {
+      "overlay": "Překryvná vrstva",
+      "expand": "Rozšiřující se"
+    },
+    "sidebarIcon": "Ikona postranního panelu",
+    "sidebarIconAccess": "Do postranního panelu se dostanete přes ikonu umístěnou v pravém dolním rohu stránky. Přetažením můžete pohybovat nahoru a dolů",
+    "easiestWayUse": "Nejjednodušší způsob, jak používat {{APP_NAME}}",
+    "displayWhenSelect": "Zobrazit, když je vybrán text",
+    "promptTplForSidebar": "Šablona výzvy pro postranní panel",
+    "dragSidebarTpl": "Přetažením změňte pořadí šablon NEBO archivujte ty, které nebudete používat",
+    "addNewTplForSidebar": "Přidat novou šablonu výzvy",
+    "editSearchTplTip": "použijte {{keywords}} k doporučení klíčových slov pro vyhledávání",
+    "editSearchTplPlaceholder": "{{keywords}} v obsahu výzvy bude automaticky nahrazeno vašimi vyhledávacími klíčovými slovy",
+    "editSidebarTplTip": "Sem vložte nebo vložte obsah",
+    "showOnList": "Zobrazit na seznamu",
+    "translatorNavTitle": "Rychlé vyhledávání",
+    "translatorTitle": "Okno rychlého vyhledávání",
+    "translatorFabTitle": "Ikona rychlého vyhledávání",
+    "translatorFabDesc": "Pomocí ikony otevřete okno rychlého vyhledávání.",
+    "translatorFabToggleLabel": "Zobrazit, když je vybrán text",
+    "translatorTplTitle": "Šablona výzvy pro vyskakovací okno",
+    "translatorTplDesc": "První hlavní šablona bude použita jako výchozí příkaz pro vyskakovací okno.",
+    "translatorPrimaryTemplates": "Hlavní šablony",
+    "translatorTemplatesNotes": "*Toto vyskakovací okno sdílí stejné šablony s postranním panelem. Pokud potřebujete upravit nebo přidat šablonu, upravte ji v <b>Nastavení postranního panelu</b>.",
+    "translatorIntroTitle": "🤔 Co je rychlé vyhledávání?",
+    "translatorIntroDesc": "Rychlé vyhledávání je rychlá akce aplikace {{APP_NAME}}, která poskytuje řadu užitečných nástrojů.\n\nZobrazí se okamžitě, když vyberete text. Jediným kliknutím můžete rychle překládat texty, přepisovat je, získávat vysvětlení a mnoho dalšího. Kromě toho můžete změnit pořadí nástrojů a přizpůsobit své vlastní výzvy.\n\nChcete-li aktivovat {{APP_NAME}}, stačí kliknout na ikonu Rychlé vyhledávání.",
+    "translatorHostFabConfigLabel": "Seznam webových stránek, kde je rychlé vyhledávání zakázáno",
+    "translatorShortcutLabel": "Klávesová zkratka pro rychlé vyhledávání",
+    "webAssistant": {
+      "vidoe": {
+        "title": "Shrnutí videa na YouTube",
+        "desc": "Když je {{APP_NAME}} zapnutá, může vám pomoci shrnout videa na YouTube"
+      },
+      "webpage": {
+        "title": "Shrnutí webové stránky",
+        "desc": "Když je {{APP_NAME}} zapnutá, pomůže vám shrnout články na webové stránce"
+      },
+      "qa": {
+        "title": "Asistent pro otázky a odpovědi",
+        "desc": "Když je {{APP_NAME}} zapnutá, může odpovídat na otázku na Quora, StackOverflow a dalších stránkách QA"
+      }
+    },
+    "feedbackTypes": {
+      "bug": {
+        "name": "Zpráva o problému",
+        "title": {
+          "label": "Shrnutí problému",
+          "tip": "Dejte nám pár slovy vědět, co se pokazilo."
+        },
+        "detail": {
+          "label": "Podrobnosti o problému",
+          "tip": "Popište prosím podrobně, co se pokazilo, všechny akce, které jste provedli, a chybové zprávy, které se vám zobrazily."
+        }
+      },
+      "fr": {
+        "name": "Budoucí žádost",
+        "title": {
+          "label": "Titul",
+          "tip": "Čeho se týká vaše žádost?"
+        },
+        "detail": {
+          "label": "Popis",
+          "tip": "Uveďte prosím podrobný popis nové funkce, kterou chcete."
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "Zeptejte se ChatGPT:",
+    "savePrompt": "Výzva k uložení",
+    "saveNewPrompt": "Uložit jako novou výzvu",
+    "replacePrompt": "Nahraďte výzvu",
+    "inputPlaceholder1": "Zadejte výzvu nebo vyberte z nabídky",
+    "inputPlaceholder2": "Sem vložte nebo vložte obsah",
+    "startNewLine": "Stisknutím {{shortcut}} zahájíte nový řádek",
+    "inputPlaceholderCodes": "Zde vložte nebo zadejte kódy",
+    "inputPlaceholderQA": "Sem vložte nebo zadejte otázku",
+    "pressToSubmit": "Odešlete stisknutím {{key}}",
+    "response": "Odezva:",
+    "stopGenerating": "Přestaňte generovat",
+    "regenerate": "Regenerovat odezvu",
+    "askTabLabel": "Dotázat se",
+    "chatTabLabel": "Povídat si",
+    "composeTabLabel": "Napsat",
+    "queryLeft": "Zbývá {{num}} dotazů",
+    "queryLeft2": "Zbývá {{num}}",
+    "freePlan": "Plán zdarma",
+    "premiumPlan": "Prémiový plán",
+    "extraQuota": "Extra kvóta",
+    "submitOption": "Odeslat možnost",
+    "painterLabel": "Malíř"
+  },
+  "sidebarChatPanel": {
+    "newChat": "Nový chat",
+    "chatHistory": "Dějiny",
+    "prompts": "Výzvy",
+    "inputPlaceholder": "Napište zprávu...",
+    "send": "Poslat",
+    "feedback": "Zpětná vazba",
+    "share": "Podíl",
+    "deleteConfirmTitle": "Smazat tuto konverzaci?",
+    "deleteConfirmContent": "Tuto akci nelze vrátit zpět.",
+    "compareWeb": "Porovnejte odpověď z webu",
+    "answerWithoutSearching": "Porovnejte odpověď z původního ChatGPT",
+    "welcomeQues": [
+      {
+        "title": "🤔 Vysvětlete složitý pojem",
+        "ques": "Řekněte mi něco o velkém třesku, abych to mohl vysvětlit svému 5letému dítěti"
+      },
+      {
+        "title": "🧠 Přemýšlejte o nebývalých nápadech",
+        "ques": "Poskytněte mi prosím 10 nápadů na dárky k narozeninám mého přítele"
+      },
+      {
+        "title": "💭 Získejte okamžitě chytlavé tituly",
+        "ques": "Vygenerujte pět chytlavých titulů pro mé psaní o případu použití ChatGPT"
+      }
+    ],
+    "textSelectedTip": "Text z vašeho výběru",
+    "textSelectedSystemMsg": "Co byste chtěli s textem udělat?",
+    "welcomeSystemMsg": "Ahoj! Jak vám dnes mohu pomoci?",
+    "chatActionTranslate": "Přeložit do jazyka {{lang}}",
+    "addAPrompt": "Přidejte výzvu",
+    "search": "Vyhledávání",
+    "continueInChat": "Pokračujte v chatu",
+    "userStopTip": "Uživatel zrušil požadavek.",
+    "noChatHistory": "Zatím žádná historie chatu.",
+    "noSearchHistory": "Nebyly nalezeny žádné výsledky.",
+    "webAccessModalTitle": "{{APP_NAME}} umožňuje ChatGPT přistupovat na web!",
+    "webAccessModalContent": "Pamatujte, že ChatGPT má v roce 2021 přerušení znalostí! Aplikace {{APP_NAME}} však spojuje sofistikovanou inteligenci ChatGPT s webovými informacemi v reálném čase. Tato funkce vyžaduje značné množství tokenů, proto zvažte upgrade, abyste podpořili naše úsilí!"
+  },
+  "sidebarComposePanel": {
+    "compose": "Komponovat",
+    "reply": "Odpověď",
+    "writePlaceholder": "Téma, které chcete napsat",
+    "replyPlaceholder1": "Původní text, na který chcete odpovědět",
+    "replyPlaceholder2": "Obecný obsah vaší odpovědi na výše uvedený text",
+    "submitShortcut": "Stisknutím {{shortcut}} vygenerujete koncept",
+    "generate": "Vygenerovat koncept",
+    "format": "Formát",
+    "email": "E-mailem",
+    "idea": "Idea",
+    "outline": "Obrys",
+    "essay": "Esej",
+    "paragraph": "Odstavec",
+    "blog": "Příspěvek na blogu",
+    "ads": "Marketingové reklamy",
+    "twitter": "Cvrlikání",
+    "comment": "Komentář",
+    "message": "Zpráva",
+    "tone": "Tón",
+    "professional": "Profesionální",
+    "formal": "Formální",
+    "casual": "Neformální",
+    "enthusiastic": "Nadšený",
+    "informational": "Informační",
+    "funny": "Legrační",
+    "length": "Délka",
+    "short": "Krátký",
+    "medium": "Střední",
+    "long": "Dlouho",
+    "preview": "Náhled",
+    "regenerate": "Regenerovat",
+    "addToSite": "Přidat na web",
+    "addToSiteTip": "Umístěte kurzor myši do požadovaného vstupního pole a kliknutím na '{{name}}' jej vložte"
+  },
+  "translator": {
+    "quickActions": "Rychlé vyhledávání",
+    "disableHostFabLabel": "Zakázat na tomto webu",
+    "disableFabLabel": "Zakázat na všech webech"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>Líbí se vám naše rozšíření?</b> Ohodnoťte nás v internetovém obchodě pěti hvězdičkami, abyste nám pomohli růst",
+    "newInVersion": "Co je nového ve verzi {{versionId}}",
+    "learnToUse": "Naučte se používat",
+    "logs": {
+      "2_7_0": [
+        "Nakreslete obrázek z textu",
+        "Nakreslete obrázek z referenčního obrázku"
+      ],
+      "2_6_0": [
+        "Sider podporuje pevný postranní panel – můžete chatovat mezi všemi kartami bez překrývání jakéhokoli obsahu <br /> (dostupné v Chrome 114 nebo novějším)"
+      ],
+      "2_5_0": [
+        "Shrnutí YouTube! Sledujte 1 hodinu videa na YouTube za 1 minutu",
+        "Porovnejte odpovědi poskytnuté lidmi a AI na stránkách Q&A, jako jsou Quora, StackOverflow a Zhihu"
+      ],
+      "2_4_0": [
+        "<b>Inteligentní webový přístup</b>: Na základě vašeho dotazu se Al rozhodne, zda potřebuje přístup na web.",
+        "Zlepšení stability"
+      ],
+      "2_3_0": [
+        "Podpora procházení a pluginů pro uživatele Plus!",
+        "ChatGPT s přístupem k internetu pro každého!"
+      ],
+      "2_2_0": [
+        "Napište libovolnou zprávu",
+        "Odpověď na e-mail, tweet, komentář atd"
+      ],
+      "2_1_0": [
+        "Zkratka pro Rychlé vyhledávání",
+        "Změňte velikost okna Rychlé vyhledávání",
+        "Opravy chyb a další vylepšení UX"
+      ],
+      "2_0_0": [
+        "Podpora <b>GPT-4 </b>pro všechny uživatele!",
+        "Pozvěte přátele a získejte dotazy <b>GPT-4</b> pro vás oba!",
+        "Opravy chyb a další vylepšení UX"
+      ],
+      "1_1_0": [
+        "Kompletní chat na <b>nové kartě</b>!",
+        "Chat GPT, <b>Bing</b>, <b>Bard</b> spolu!",
+        "Oprava chyb"
+      ],
+      "1_0_13": [
+        "Po položení otázek pokračujte v chatu",
+        "Přepínání mezi GPT-4 a GPT-3.5 pro uživatele Plus",
+        "Snadný přístup a vyhledávání v historii chatu"
+      ],
+      "1_0_12": [
+        "Synchronizujte nastavení rozšíření mezi počítači",
+        "Získejte přístup k výzvám z různých notebooků",
+        "Uložte chaty pro budoucí použití",
+        "Sdílejte chaty pomocí odkazu"
+      ],
+      "1_0_11": [
+        "Rychlý přístup k akcím prostřednictvím vyskakovacího okna bez otevření postranního panelu.",
+        "Přidejte podporu pro další jazyky.",
+        "Při používání funkce překladu zachovejte jazykové preference uživatele.",
+        "Vyřešte konflikty zástupců na platformách, jako je GitHub a další."
+      ],
+      "1_0_10": [
+        "Podporujte nyní více než 50 jazyků!"
+      ],
+      "1_0_8": [
+        "Podpora GPT-4 pro uživatele Plus! Zkontrolujte stránku nastavení!"
+      ],
+      "1_0_7": [
+        "Zapamatovat výzvu použitou naposledy",
+        "Optimalizujte pozici panelu chatGPT na vyhledávacích stránkách",
+        "Přidejte možnost umístit ikonu postranního panelu na stránce na levou stranu",
+        "Optimalizujte velikost balíku",
+        "Přidejte tmavý režim",
+        "Podporujte svůj proxy server URL API"
+      ],
+      "1_0_6": [
+        "Vylepšete funkci shrnutí na stránce Youtube"
+      ],
+      "1_0_5": [
+        "Zapamatujte si umístění ikony postranního panelu",
+        "Vylepšete klávesové zkratky",
+        "Šablony výzev ukládejte přímo z postranního panelu"
+      ],
+      "1_0_4": [
+        "Znovu objednejte položky výzvy v rozevíracím seznamu",
+        "Archivujte položky výzvy, které nebudete používat",
+        "Podpora odezvy ve více než 50 jazycích"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Enter pro rychlé „Odeslat“",
+        "Možnost skrytí panelu na stránce s výsledky vyhledávání",
+        "Podpora ESC pro skrytí bočního panelu",
+        "Podpora shrnuje dlouhý článek"
+      ],
+      "1_0_2": [
+        "Chcete-li zastavit generování odpovědi, přidejte tlačítko stop",
+        "Změňte místo sbalení tlačítka"
+      ],
+      "1_0_1": [
+        "Vylepšete funkci shrnutí na stránce Youtube",
+        "Opravte některé chyby související s kopírováním/vkládáním a tiskem"
+      ]
+    }
+  },
+  "producthuntPromote": {
+    "voteBtn": "Hlasujte o Product Hunt",
+    "sidebar2Banner1": "Hlasujte pro nás v <b>Hledání produktů</b> HNED TEĎ, abyste o tom informovali dál.",
+    "sidebar2ModalTitle": "✨ Shrnutí postranního panelu 2.0",
+    "sidebar2ModalDesc": "• Karta Chat\n  • Rychlé vyhledávání pro rychlé dotazy\n  • Účet pro synchronizaci výzev\n  • Ukládat a sdílet chaty\n  • Podpora více jazyků\n  • Podpora GPT-4",
+    "ios1Banner1": "Hlasujte pro ChitChat – aplikaci ChatGPT pro iOS 🎉",
+    "ios1Banner2": "Pojďme to rozjet! 😄",
+    "ios1ModalTitle": "✨ Novinka v aplikaci ChitChat pro iOS",
+    "ios1ModalDesc": "• Získejte odpovědi z ChatGPT 3.5 a 4\n• Podpůrný tým robotů vám pomáhá na jednom místě\n  • Udělejte ze svého PDF chatbota"
+  },
+  "searchTool": {
+    "questionMark": "Spusťte ChatGPT připojením otazníku za váš dotaz",
+    "askForQuery": "Zeptejte se ChatGPT na tento dotaz",
+    "fiveStart": "Líbí se vám toto rozšíření? Dejte nám 5hvězdičkové hodnocení v {{store}}",
+    "loginAndCloudflareCheck": "Přihlaste se a projděte kontrolou Cloudflare na {{web}}",
+    "braveTrouble": "Pořád nefunguje? Sledovat {{url}}",
+    "cloudflareCheck": "OpenAI vyžaduje jednou za čas projít bezpečnostní kontrolou. Pokud se to bude opakovat, změňte poskytovatele AI na OpenAI API v <i>možnostech rozšíření</i>.",
+    "failedResponse": "Nepodařilo se načíst odpověď z ChatGPT:",
+    "waitResponse": "Čekání na odpověď ChatGPT..."
+  },
+  "sidepanel": {
+    "title": "Sider podporuje pevný boční panel",
+    "tip": "Tip: Pro lepší zážitek upravte šířku bočního panelu.",
+    "benefit1": "Pokud přejdete na novou stránku, váš postranní panel Sider <b>nikdy nezmizí</b>.",
+    "benefit2": "Můžete chatovat mezi všemi kartami, aniž byste <b>překrývali jakýkoli obsah</b>.",
+    "benefit3": "K dispozici pouze v <b>Google Chrome 114 nebo novější</b>"
+  },
+  "webEnhance": {
+    "videoSummaryCost": "Cena {{num}} dotazů",
+    "videoSummaryBtn": "Shrnutí videa",
+    "loginToSummary": "Přihlaste se do Sumarize",
+    "noTranscriptTip": "Aplikace {{APP_NAME}} nedokáže shrnout videa bez titulků.",
+    "shownotes": "Klíčové momenty",
+    "freeLimitTips": "Vaše bezplatná zkušební verze byla vyčerpána, upgradujte nyní, abyste mohli nadále používat funkci shrnutí videa.",
+    "askQuestionBtn": "Zeptat se na otázku",
+    "noQuestionTip": "Aplikaci {{APP_NAME}} se nepodařilo dostat problém na stránku."
+  },
+  "msg": {
+    "enterAPIKey": "Zadejte svůj klíč API OpenAI",
+    "selectModel": "Vyberte prosím platný model",
+    "changeSaved": "Změny uloženy",
+    "fiveStart": "Dejte nám 5 hvězdiček",
+    "pleaseContactUs": "Prosím <a>kontaktujte nás</a>.",
+    "inviteTitle": "Pozvání a odměny",
+    "inviteEarn": "Získejte <mx>{{num}} dotazů</mx> pro vás a vaše přátele. <b>Čím více referujete, tím více vyděláváte</b>.",
+    "inviteStep1": "Doporučte své přátele odkazem na pozvánku",
+    "inviteStep2": "Vaši přátelé se přihlásí",
+    "inviteStep3": "Nainstalují rozšíření a přihlášení. Získané odměny!",
+    "checkInvitation": "Zkontrolujte záznamy pozvánek",
+    "inviteFriendsEarn": "Pozvěte přátele a vydělávejte dotazy GPT-4",
+    "inviteFriends": "Pozvat přátele",
+    "inviteRewardsRecord": "Rekordy odměn:",
+    "invitedRewardObtained": "Získané odměny!",
+    "invitedWelcome": "Vítejte! Do vašeho účtu byly přidány dotazy GPT!",
+    "invitedRewardTips": "Váš přítel vás zve a každý z vás má <mx>{{num}}} dotazů</mx>, které může použít",
+    "getMoreGPT4": "Získejte více kvót GPT-4",
+    "errSiderApiLimit": "Využili jste všechny námi poskytnuté bezplatné kredity, postupujte podle <i>pokynů zde</i> a získejte API od OpenAI.",
+    "errSiderApiLimitDevice": "Využili jste všechny námi poskytované bezplatné kredity. <a>Přihlaste se</a> a získejte další bezplatné kredity.",
+    "errSiderApiLimitLogin": "Využili jste všechny námi poskytované bezplatné kredity. ChatGPT API je drahé, proto prosím upgradujte na náš <a>prémiový plán</a>, abyste nás podpořili. Pokud máte, můžete také zdarma použít svůj vlastní <i>klíč API</i>.",
+    "errSiderApiLimitPremium": "Využili jste všechny kredity, prosím <a>kontaktujte nás</a>.",
+    "errSiderPremiumRequired": "Chcete-li tuto funkci používat, <a>upgradujte na prémiovou verzi</a>.",
+    "errSiderHighTrafficError": "Aplikace {{APP_NAME}} čelí vysokému provozu. Prosím zkuste to znovu později.",
+    "errSiderHighTrafficTip": "Zvažte prosím <a>upgrade na prémiový účet</a> pro stabilní přístup a podporu našeho vývoje.",
+    "errSiderDeviceBinded": "Chcete-li jej použít, <a>přihlaste se</a>.",
+    "errSiderApiHighLoad": "Limit požadavků byl dosažen kvůli vysokému zatížení, zkuste to prosím znovu později.",
+    "errSiderGPT4HighLoad": "Kvůli vysokému zatížení bylo dosaženo limitu GPT-4, zkuste to prosím znovu později.",
+    "errSiderGPT4LimitDevice": "Nejprve se prosím <b>přihlaste</b> a <a>pozvěte své přátele</a> nebo <c>upgradujte na prémiovou verzi</c>, abyste získali další kvótu GPT-4.",
+    "errSiderGPT4LimitLogin": "<t>Pozvěte své přátele</t> nebo <a>upgradujte na prémiovou verzi</a> a získejte další kvótu GPT-4.",
+    "errSiderGPT4LimitPremium": "<tm>Pozvěte své přátele</tm>, aby získali další kvótu GPT-4.",
+    "errSiderNeedLogin": "Prosím <a>přihlaste se</a>.",
+    "errSiderTimeout": "Vypršel časový limit žádosti. Prosím zkuste to znovu.",
+    "errSiderProcessing": "Vždy pouze jedna zpráva. Před odesláním další zprávy nechte dokončit jakoukoli jinou odpověď nebo chvíli počkejte.",
+    "errTrySiderAPI": "Chcete-li získat stabilní přístup (pro všechny), přejděte na <i>ChatGPT Sidebar API</i>",
+    "errTrySiderAPI2": "NEBO použijte svůj vlastní klíč API na <a>stránce nastavení</a> (pro vývojáře)",
+    "errChatGPTAuth": "Prosím <m>klikněte na odkaz pro přihlášení </m>na svou webovou stránku ChatGPT a my vám pomůžeme jej připnout. Poté jej můžete použít v postranním panelu.",
+    "errChatGPTAuthTipTitle": "Pokud to nefunguje:",
+    "errChatGPTFailToFetch": "Nepodařilo se získat odpověď od ChatGPT.",
+    "errOpenaiFailToFetch": "Nepodařilo se získat odpověď z OpenAI prostřednictvím vašeho klíče API.",
+    "loginAndCloudflareCheck": "Přepněte na <a>Sidebar API</a> a získejte stabilní přístup NEBO se přihlaste a projděte kontrolou Cloudflare na <i>chat.openai.com</i>",
+    "invalidApiKey": "Klíč API je neplatný, získejte prosím jiný.",
+    "getApiKeyGuide": "Aby to fungovalo, potřebujete klíč API OpenAI. Chcete-li získat klíč API, postupujte podle našeho průvodce.",
+    "thankForFeedback": "Děkuji. Formulář byl úspěšně odeslán. Brzy vás budeme kontaktovat.",
+    "writeSomething": "Prosím napište něco.",
+    "enterEmail": "Chcete-li dostávat aktualizace o problému, zadejte e-mailovou adresu.",
+    "emailRequired": "E-mail je povinný.",
+    "promptNameRequired": "Jméno výzvy je povinné.",
+    "titleRequired": "Název je povinný.",
+    "nameYourPrompt": "Pojmenujte výzvu",
+    "nameYourTitle": "Pojmenujte svou konverzaci",
+    "promptTplRequired": "Je vyžadována šablona výzvy.",
+    "deletePromptWarn": "Chcete smazat tuto šablonu výzvy?",
+    "restorePromptWarn": "Chcete obnovit tuto šablonu výzvy?",
+    "notValidEmail": "není platný e-mail",
+    "pleaseSignin": "Prosím přihlašte se.",
+    "signinTips": "Chcete-li synchronizovat výzvy a nastavení, přihlaste se",
+    "signinAward": "Přihlaste se a získejte {{num}} dotazů za den",
+    "signinAward2": "Dotazy byly vyčerpány pro nepřihlášeného uživatele. Můžete se přihlásit a získat <b>{{num}} bezplatných dotazů denně</b>.",
+    "chatgptTabGuardTips": "Ponechte tuto kartu otevřenou, nyní se můžete vrátit do aplikace {{APP_NAME}}",
+    "chatgptTabGuardRefreshingTips": "S ChatGPT se něco pokazilo. Znovu se připojuje, čekejte prosím...",
+    "chatgptTabGuardRefreshingTips1": "S ChatGPT se něco pokazilo.",
+    "chatgptTabGuardRefreshingTips2": "Znovu se připojuje, čekejte prosím...",
+    "chatgptTabGuardSetupSuccessTips": "Opraveno, zkuste to prosím znovu",
+    "switchToSiderApiToContinue": "Tato funkce aktuálně podporuje pouze režim API {{APP_NAME}}. Chcete-li pokračovat, <a>přepněte na {{APP_NAME}} API</a>.",
+    "switchRequired": "Je vyžadován přepínač",
+    "signInRequired": "Je vyžadováno přihlášení",
+    "useUpUpgrade": "Vaše kvóta byla vyčerpána. Upgradujte prosím, abyste získali další kvótu.",
+    "webSearchSignIn": "Chcete-li použít tuto funkci, přihlaste se."
+  },
+  "options": {
+    "theme": {
+      "auto": "automatický",
+      "light": "jasný režim",
+      "dark": "tmavý režim"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "Vždy",
+        "desc": "Zeptejte se ChatGPT při každém vyhledávání"
+      },
+      "questionMark": {
+        "title": "Otazník",
+        "desc": "Zeptejte se ChatGPT, zda klíčová slova končí otazníkem (?)"
+      },
+      "manually": {
+        "title": "Ručně",
+        "desc": "Zeptejte se ChatGPT pouze po kliknutí na tlačítko"
+      }
+    },
+    "sidebarLocation": {
+      "left": "levá strana",
+      "right": "pravá strana"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "Zeptejte se ChatGPT",
+        "template": "Můžete mi říct něco o {{keywords}}? Pokud je to možné, můžete mi o tom dát nějaké odkazy? Pokud je {{keywords}} otázka související s kódem, napište prosím kód"
+      },
+      "list": {
+        "title": "Klíčová slova k otázkám",
+        "template": "Uveďte 1 nejoblíbenější otázku týkající se „{{keywords}}“. Poté odpovězte na tuto otázku. Na závěr uveďte další 4 otázky."
+      },
+      "suggest": {
+        "title": "Získejte související klíčová slova",
+        "template": "{{keywords}} jsou moje klíčová slova pro vyhledávání na Googlu. Dejte mi prosím 5 sad souvisejících klíčových slov."
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "Shrnout",
+        "template": "Shrňte to pro žáka druhého stupně:"
+      },
+      "similar-pages": {
+        "title": "Podobné stránky",
+        "template": "Najděte 10 stránek podobných následujícímu obsahu s odkazem:"
+      },
+      "grammar": {
+        "title": "Gramatika",
+        "template": "Opravte to na standardní angličtinu:"
+      },
+      "explain": {
+        "title": "Vysvětlit",
+        "template": "Vysvětlete následující obsah:"
+      },
+      "explain-codes": {
+        "title": "Vysvětlete kódy",
+        "template": "Vysvětlete následující kódy:"
+      },
+      "rewrite": {
+        "title": "Přepsat",
+        "template": "Přepište následující obsah:"
+      },
+      "translate": {
+        "title": "přeložit",
+        "template": "Přeložte následující obsah do jazyka {{lang}}:"
+      },
+      "qa": {
+        "title": "Otázky a odpovědi",
+        "template": "Odpovězte na tuto otázku:"
+      }
+    }
+  }
+}
