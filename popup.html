@@ -6,7 +6,14 @@
   <script src="popup.js"></script>
 </head>
 <body>
-  <!-- Chatbot icon -->
-  <div id="chatbot-icon" class="floating-icon">Chatbot</div>
+  <div class="chat-container">
+    <div id="chatlog">
+      <!-- Chat messages will be displayed here -->
+    </div>
+    <div class="user-input-container">
+      <input type="text" id="user-input" placeholder="Type a message...">
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
 </body>
 </html>
