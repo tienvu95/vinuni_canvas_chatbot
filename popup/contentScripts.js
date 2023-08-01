@@ -9,7 +9,7 @@ function createChatbotButton() {
     chatbotButton.id = "chatbotButton";
     chatbotButton.textContent = "ChatGPT";
     chatbotButton.style.position = "fixed";
-    chatbotButton.style.bottom = "10px"; // Position the button at the bottom right corner
+    chatbotButton.style.top = "10px"; // Position the button at the bottom right corner
     chatbotButton.style.right = "10px";
     chatbotButton.style.backgroundColor = "#007bff";
     chatbotButton.style.color = "#fff";
