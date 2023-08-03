@@ -1,6 +1,6 @@
 // background.js
 
-// Function to create or show the ChatGPT popup window
+// Function to toggle the ChatGPT popup window
 function toggleChatbotWindow() {
   const chatbotUrl = "https://chat.openai.com";
   let chatbotWindow = null;

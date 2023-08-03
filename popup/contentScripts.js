@@ -1,40 +1,37 @@
-// contentScripts.js
+function createButton() {
+  const button = document.createElement("button");
+  button.textContent = "Click Me!";
+  button.style.position = "fixed";
+  button.style.bottom = "20px";
+  button.style.right = "10px";
+  button.style.backgroundColor = "rgba(0, 123, 255, 0.8)"; // Transparent blue background  button.style.color = "#fff";
+  button.style.border = "none";
+  button.style.borderRadius = "5px";
+  button.style.padding = "10px";
+  button.style.fontSize = "16px";
+  button.style.fontWeight = "bold";
+  button.style.cursor = "pointer";
+  button.style.zIndex = "9999";
 
-// Function to create the chatbot button
-function createChatbotButton() {
-  // Check if the button is already created to avoid duplicates
-  if (!document.getElementById("chatbotButton")) {
-    // Create a new button element for the chatbot
-    const chatbotButton = document.createElement("button");
-    chatbotButton.id = "chatbotButton";
-    chatbotButton.textContent = "ChatGPT";
-    chatbotButton.style.position = "fixed";
-    chatbotButton.style.top = "10px"; // Position the button at the bottom right corner
-    chatbotButton.style.right = "10px";
-    chatbotButton.style.backgroundColor = "#007bff";
-    chatbotButton.style.color = "#fff";
-    chatbotButton.style.border = "none";
-    chatbotButton.style.borderRadius = "5px";
-    chatbotButton.style.padding = "15px";
-    chatbotButton.style.fontSize = "18px";
-    chatbotButton.style.fontWeight = "bold";
-    chatbotButton.style.cursor = "pointer";
-    chatbotButton.style.zIndex = "9999";
-    document.body.appendChild(chatbotButton);
+  document.body.appendChild(button);
 
-    // Add event listener to the button to toggle the ChatGPT window
-    chatbotButton.addEventListener("click", () => {
-      sendMessageToBackground({ action: "toggle_chatbot" });
-    });
-  }
+  button.addEventListener("click", () => {
+    openChatGPTPopup();
+  });
 }
 
-// Function to send a message to the background script
-function sendMessageToBackground(message) {
-  chrome.runtime.sendMessage(message);
+function openChatGPTPopup() {
+  const popupWidth = 400;
+  const popupHeight = 600;
+  const chatGPTUrl = "https://tienvu95.github.io/blog/";
+  const left = window.screen.width - popupWidth - 10;
+  const top = 10;
+
+  window.open(
+    chatGPTUrl,
+    "ChatGPTPopup",
+    `width=${popupWidth},height=${popupHeight},left=${left},top=${top}`
+  );
 }
 
-// Inject the chatbot button when the page loads
-document.addEventListener("DOMContentLoaded", function () {
-  createChatbotButton();
-});
+createButton();
