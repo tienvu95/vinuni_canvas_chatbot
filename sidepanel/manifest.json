@@ -3,7 +3,7 @@
 {
   "manifest_version": 3,
   "name": "ChatGPT Popup",
-  "description": "Opens a ChatGPT window in the current page.",
+  "description": "Opens a ChatGPT window on side panel page.",
   "version": "1.0",
 
   "icons": {
@@ -21,16 +21,32 @@
   },
 
   "permissions": [
-    "activeTab",
-    "sidePanel"],
+    "sidePanel",
+    "tabs",
+    "contextMenus"],
+
   "background": {
     "service_worker": "background.js"
   },
+
 
   "content_scripts": [
     {
       "matches": ["https://vinuni.instructure.com/*"],
       "js": ["contentScripts.js"]
     }
-  ]
+  ],
+
+
+
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+B",
+        "mac": "Command+B"
+      }
+    }
+  }
+
+
 }

@@ -51,7 +51,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-const GOOGLE_ORIGIN = 'https://vinuni.instructure.com';
+const CANVAS_ORIGIN = 'https://vinuni.instructure.com';
 
 // Allows users to open the side panel by clicking on the action toolbar icon
 chrome.sidePanel
@@ -62,10 +62,10 @@ chrome.tabs.onUpdated.addListener(async (tabId, info, tab) => {
   if (!tab.url) return;
   const url = new URL(tab.url);
   // Enables the side panel on google.com
-  if (url.origin === GOOGLE_ORIGIN) {
+  if (url.origin === CANVAS_ORIGIN) {
     await chrome.sidePanel.setOptions({
       tabId,
-      path: 'sidepanel.html',
+      path: 'popup.html',
       enabled: true
     });
   } else {
@@ -76,3 +76,9 @@ chrome.tabs.onUpdated.addListener(async (tabId, info, tab) => {
     });
   }
 });
+
+
+// Allows users to open the side panel by clicking on the action toolbar icon
+// chrome.sidePanel
+//   .setPanelBehavior({ openPanelOnActionClick: true })
+//   .catch((error) => console.error(error));
